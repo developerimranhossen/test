@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Facebook login page</title>
+	<link rel="icon" href="facebook.png">
+	<style>
+		body {
+			background-color: #F0F2F5;
+		}
+		.container {
+			margin: 8em auto;
+			height: 350px;
+			width: 35%;
+			box-shadow: 0em 0em 1em;
+			background-color: #fff;
+			padding: 1.4em;
+			text-align: center;
+
+		}
+		a {
+			text-decoration: none;
+			border-radius: 5px;
+		}
+		.aci {
+			background-color: green;
+			color: white;
+			padding: .7em;
+			display: block;
+			margin-top: 1em;
+
+			
+		}
+		input {
+			display: block;
+			width: 100%;
+			box-sizing: border-box;
+			padding: 1em;
+			margin: 1em 0;
+			font-size: 1.15rem;
+			border: none;
+			border-radius: 1em;
+			background-color: #E8F0FE;
+			transition: border .5s;
+		}
+		input:focus {
+			outline: none;
+		}
+		input:hover {
+			border: 1px solid #1976F2;
+		}
+
+		input[type=submit] {
+			background-color: #1877f2;
+			border: none;
+			padding: .8em;
+			border-radius: .5em;
+		}
+		input:hover[type=submit] {
+			background-color: #166FE5;
+		}
+	
+	</style>
+</head>
+<body>
+	<div class="container">
+		<input type="text" placeholder="Email address or phone number" >
+		<input type="password" placeholder="password" >
+		<input type="submit" class="" value="Log In">
+		<a href="forgot.html">Forgotten password</a>
+		<hr>
+		<a href="sin-up.html" class="aci">Create New Account</a>
+	</div>
+</body>
+</html>
